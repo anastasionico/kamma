@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\SenderRequest;
 use App\Http\Services\SenderService;
-use mysql_xdevapi\Exception;
+use Exception;
+use Illuminate\Http\JsonResponse;
 
 class SenderController extends Controller
 {
