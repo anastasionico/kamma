@@ -1,0 +1,33 @@
+.content-section, .content-form {
+    border: 1px solid $color-text;
+    background: white;
+    padding:$default-space $default-space 0 $default-space;
+
+    h2 {
+        font-weight: 900;
+    }
+    h5 {
+        font-weight: 900;
+        color: $color-grey;
+    }
+
+    p:first-of-type  {
+        width: 66%;
+        margin-bottom: $default-space;
+    }
+    p > a {
+        color: $color-red;
+    }
+
+    &-read-more {
+        display: block;
+        margin: $default-space 0 1rem;
+        color: $color-text;
+        text-align: right;
+        text-decoration: none;
+
+        &-arrow {
+            color: $color-red;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.content-form {
+    margin-top: 15%;
+    padding: $default-space;
+}
+form {
+    .form-group {
+        margin-bottom: 1rem;
+
+        label {
+            font-weight: 900;
+            text-align: right;
+        }
+
+        .form-control-plaintext {
+            border: 1px solid $color-grey !important;
+        }
+    }
+
+    #submit {
+        background: white;
+
+        span {
+            background: $color-turquoise;
+            color: white;
+        }
+    }
+}

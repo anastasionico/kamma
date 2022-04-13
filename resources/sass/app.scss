@@ -1,0 +1,56 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Reset
+@import "reset";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Content
+@import "content";
+
+// Form
+@import "form";
+
+.container-fluid {
+    padding: 0;
+
+    .bg-grey {
+        height: $default-space;
+        width: 100%;
+        background: $color-grey;
+    }
+
+    main {
+        margin: 0 auto;
+        width: 85%;
+
+        nav {
+            text-align: right;
+
+            svg {
+                margin: $default-space 0;
+                width: 10rem;
+                fill: $color-text;
+                display: inline-block;
+            }
+        }
+
+        footer {
+            text-align: center;
+            ul {
+                li {
+                    display: inline-block;
+                    a {
+                        color: $color-text;
+                        margin: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
